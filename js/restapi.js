@@ -18,12 +18,16 @@ const displayCountries = countries =>{
 
 }
 
-const getCountry = (country) =>{
-    console.log(country)
+const getCountry = (country) => {
     return `
-    <div class="country-div">
-    <h2>${country.name.common} </h2>
-    </div>
-    `
-}
+        <div class="country-div">
+            <img src="${country.flags.png}" alt="Flag of ${country.name.common}" width="100">
+            <h2>${country.name.common}</h2>
+            <p><strong>Capital:</strong> ${country.capital?.[0] || 'N/A'}</p>
+            <p><strong>Population:</strong> ${country.population.toLocaleString()}</p>
+            <p><strong>Languages:</strong> ${Object.values(country.languages || {}).join(', ')}</p>
+        </div>
+    `;
+};
+
 loadCountryAPI();
