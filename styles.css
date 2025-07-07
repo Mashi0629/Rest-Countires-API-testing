@@ -12,3 +12,17 @@ h1{
     padding: 15px;
     
 }
+
+.countries{
+    max-width: 1240px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.country-div{
+    
+    background: #88cdea;
+    border: 1px solid burlywood;
+    padding: 15px;
+}
