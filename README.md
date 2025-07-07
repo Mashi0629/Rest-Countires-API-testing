@@ -6,7 +6,6 @@ This project is a simple web application that fetches and displays data about co
 
 ## 📌 Features
 
-- Search for countries by name
 - View basic details such as:
   - Flag
   - Capital
@@ -19,9 +18,9 @@ This project is a simple web application that fetches and displays data about co
 
 ## 📦 Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
+- HTML
+- CSS
+- JavaScript
 - REST Countries API v3.1
 
 ## 🔗 REST Countries API Reference
@@ -38,6 +37,4 @@ More docs: [https://restcountries.com/](https://restcountries.com/)
 
 ## 🛠 How to Run Locally
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+  https://github.com/Mashi0629/Rest-Countires-API-testing
